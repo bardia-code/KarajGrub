@@ -1,0 +1,68 @@
+# Global properties
+title-text: ""
+desktop-image: "bg.jpg"
+desktop-color: "#000000"
+terminal-font: "ultrafont Regular 32"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ label {
+  top = 300
+  left = 1%
+  width = 52%
+  height = 70%
+  text = "KarajGrub"
+  font = "ultrafont Regular 32"
+  color = "#ffffff"
+  align = "center"
+}
+
++ label {
+  top = 320
+  left = 1%
+  width = 52%
+  height = 10%
+  text = "Karaj Ushakhlari!!!"
+  font = "ultrafont Regular 8"
+  color = "#ffffff"
+  align = "center"
+}
+
+# Boot menu
++ boot_menu {
+  top = 320+50
+  left = 1%
+  width = 60%
+  height = 70%-70
+  item_font = "ultrafont Regular 32"
+  item_color = "#ffffff"
+  item_spacing = 25
+  item_height = 25
+  selected_item_color = "#ff0000"
+}
+
+# Countdown message
++ label {
+  left = 1%
+  top = 98%-70
+  width = 100%
+  align = "left"
+  id = "__timeout__"
+  text = "Booting in %d seconds"
+  color = "#ffffff"
+  font = "ultrafont Regular 20"
+}
+
+# Navigation keys hint
++ label {
+  left = 5%
+  top = 98%-30
+  width = 100%
+  align = "left"
+  text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
+  color = "#ffffff"
+  font = "ultrafont Regular 12"
+}
