@@ -1,4 +1,4 @@
-# KarajGrub By bardia-code (https://github.com/bardia-code) 
+# KarajGrub
 
 ## How to install
 - clone the repository and copy it to the `/boot/grub/themes`
