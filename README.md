@@ -1,5 +1,5 @@
 # KarajGrub
-
+A shitty grub theme trolling the Karaj city of Iran.
 ## How to install
 - clone the repository and copy it to the `/boot/grub/themes`
 - edit the `/etc/default/grub` and add this line: `GRUB_THEME=/boot/grub/themes/KarajGrub/theme.txt`
